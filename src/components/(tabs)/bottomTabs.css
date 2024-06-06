@@ -13,11 +13,11 @@
 
 .navLink svg {
   color: #fff;
-  stroke: #0c0c0c;
+  stroke: #000;
 }
 
 .navLink.active svg,
 .navLink.active {
-  color: #0c0c0c;
+  color: #000;
   font-weight: 600;
 }
