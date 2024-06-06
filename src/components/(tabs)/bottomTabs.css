@@ -1,0 +1,23 @@
+.bottomTabs {
+  width: 100%;
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  border-top: 1px solid #ddd;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navLink svg {
+  color: #fff;
+  stroke: #0c0c0c;
+}
+
+.navLink.active svg,
+.navLink.active {
+  color: #0c0c0c;
+  font-weight: 600;
+}
