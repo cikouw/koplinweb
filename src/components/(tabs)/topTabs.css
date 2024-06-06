@@ -1,0 +1,30 @@
+.topTabs {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.link {
+  color: #168fff;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 5px;
+  font-size: 15px;
+  transition: color 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.link.active {
+  color: #0c0c0c;
+  font-weight: 600;
+}
+
+.link svg {
+  display: flex;
+  align-items: center;
+  fill: #168fff;
+}

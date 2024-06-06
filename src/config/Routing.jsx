@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Akun, Login, Nasabah, Register } from "../pages";
+import Performa from "../components/screens/Performa";
 
 const Routing = () => {
   return (
@@ -10,6 +11,7 @@ const Routing = () => {
         <Route path="/akun" element={<Akun />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/performa" element={<Performa />} />
       </Routes>
     </Router>
   );
