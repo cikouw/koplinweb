@@ -4,7 +4,7 @@ import { Akun, Login, Nasabah, Register } from "../pages";
 
 const Routing = () => {
   return (
-    <Router>
+    <Router basename="/koplinweb/">
       <Routes>
         <Route path="/" element={<Nasabah />} />
         <Route path="/akun" element={<Akun />} />
