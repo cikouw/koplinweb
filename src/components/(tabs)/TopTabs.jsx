@@ -16,7 +16,6 @@ const TopTabs = () => {
       </p>
       <Link to="/performa" className={`link ${isActive ? "active" : ""}`}>
         <p>Performa</p>
-        <KekananSvg />
       </Link>
     </nav>
   );
