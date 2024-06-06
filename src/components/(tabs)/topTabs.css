@@ -3,28 +3,26 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px 10px;
+  padding: 10px;
   border-bottom: 1px solid #ddd;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .link {
   color: #168fff;
   font-weight: 600;
   text-decoration: none;
-  padding: 5px;
-  font-size: 15px;
-  transition: color 0.3s ease;
+
+  font-size: 16px;
   display: flex;
   align-items: center;
-  gap: 5px;
-}
-.link.active {
-  color: #0c0c0c;
-  font-weight: 600;
+  gap: 3px;
 }
 
 .link svg {
   display: flex;
   align-items: center;
   fill: #168fff;
+  width: 15px;
 }
