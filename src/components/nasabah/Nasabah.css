@@ -1,0 +1,50 @@
+.anggota {
+  width: 100%;
+  padding: 10px;
+  background-color: #f3f3f3;
+  /* border-bottom: 1px solid #ddd; */
+  cursor: pointer;
+}
+.anggota:hover {
+  background-color: #ffff;
+}
+
+.flex-nama {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-nama strong {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.flex-nama span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #168fff;
+}
+.flex-nama p {
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.flex-alamat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-alamat span {
+  font-size: 13px;
+  font-weight: 500;
+}
+.flex-alamat p {
+  background-color: #158fff;
+  color: #fff;
+  width: 21px;
+  height: 21px;
+  text-align: center;
+  line-height: 21px;
+  border-radius: 50%;
+  font-size: 10px;
+  font-weight: 600;
+}

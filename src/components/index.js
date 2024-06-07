@@ -5,5 +5,19 @@ import CardPerforma from "./cards/CardPerforma";
 import Header from "./headers/Header";
 import HeaderAkun from "./headers/HeaderAkun";
 import Performa from "./screens/Performa";
+import CardList from "./cards/CardList";
+import Anggota from "./nasabah/Anggota";
+import AnggotaList from "./nasabah/AnggotaList";
 
-export { TopTab, BottomTab, Card, CardPerforma, Header, HeaderAkun, Performa };
+export {
+  TopTab,
+  BottomTab,
+  Card,
+  CardPerforma,
+  Header,
+  HeaderAkun,
+  Performa,
+  CardList,
+  Anggota,
+  AnggotaList,
+};
