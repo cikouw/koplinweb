@@ -1,6 +1,6 @@
 .anggota {
   width: 100%;
-  padding: 10px;
+  padding: 15px 10px;
   background-color: #f3f3f3;
   /* border-bottom: 1px solid #ddd; */
   cursor: pointer;
@@ -9,35 +9,42 @@
   background-color: #ffff;
 }
 
-.flex-nama {
+.flex-atas {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.flex-nama strong {
+.flex-atas strong {
   font-size: 1rem;
   font-weight: 600;
 }
-.flex-nama span {
+.flex-angsuran {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 35px;
+}
+.flex-angsuran span {
   font-size: 14px;
   font-weight: 500;
   color: #168fff;
 }
-.flex-nama p {
+.flex-angsuran p {
   font-size: 10px;
   font-weight: 500;
 }
 
-.flex-alamat {
+.flex-bawah {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.flex-alamat span {
+.flex-bawah span {
   font-size: 13px;
   font-weight: 500;
+  color: #777;
 }
-.flex-alamat p {
+.flex-bawah p {
   background-color: #158fff;
   color: #fff;
   width: 21px;
