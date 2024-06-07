@@ -1,10 +1,10 @@
 import React from "react";
-import HeaderNasabah from "../header/HeaderNasabah";
+import { Header } from "../headers";
 
 const Performa = () => {
   return (
     <div>
-      <HeaderNasabah />
+      <Header iBack={true} iBackPath="/" title={"Performa"} />
     </div>
   );
 };

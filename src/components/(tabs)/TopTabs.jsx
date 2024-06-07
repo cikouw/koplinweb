@@ -1,20 +1,17 @@
 import React from "react";
 import "./topTabs.css";
-import { Link, useLocation } from "react-router-dom";
-import { KekananSvg } from "../../icons";
+import { Link } from "react-router-dom";
 
 const TopTabs = () => {
-  const location = useLocation();
-  const isActive = location.pathname === "/performa";
   return (
     <nav className="topTabs">
       <p>
-        Nasabah <strong>240</strong>
+        Total <strong>240</strong>
       </p>
       <p>
         Target <strong>2,4 juta</strong>
       </p>
-      <Link to="/performa" className={`link ${isActive ? "active" : ""}`}>
+      <Link to="/performa" className="topTabsLink">
         <p>Performa</p>
       </Link>
     </nav>

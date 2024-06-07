@@ -1,7 +1,7 @@
 import React from "react";
 import "./bottomTabs.css";
 import { NavLink } from "react-router-dom";
-import { AkunSvg, NasabahSvg } from "../../icons";
+import { AkunSvg, NasabahSvg } from "../../assets/icons";
 
 const BottomTabs = () => {
   return (
