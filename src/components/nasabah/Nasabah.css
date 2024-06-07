@@ -25,13 +25,13 @@
   gap: 35px;
 }
 .flex-angsuran span {
-  font-size: 14px;
-  font-weight: 500;
-  color: #168fff;
+  font-size: 12px;
+  font-weight: 600;
 }
 .flex-angsuran p {
   font-size: 10px;
   font-weight: 500;
+  color: #777;
 }
 
 .flex-bawah {
