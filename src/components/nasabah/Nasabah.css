@@ -22,7 +22,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 35px;
+  gap: 30px;
 }
 .flex-angsuran span {
   font-size: 12px;

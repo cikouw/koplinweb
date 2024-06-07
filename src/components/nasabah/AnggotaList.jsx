@@ -1,5 +1,4 @@
 import React from "react";
-import "./Nasabah.css";
 import { Anggota } from "../../components";
 
 const AnggotaList = ({ anggotas }) => {

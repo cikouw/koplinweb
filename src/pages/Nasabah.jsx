@@ -124,12 +124,28 @@ const Nasabah = () => {
       sobekan: "8",
     },
     {
-      id: 16,
+      id: 17,
       nama: "Evi",
       angsuran: "10 ribu",
       tanggal: "6 Jun",
       alamat: "Teleng",
       sobekan: "2",
+    },
+    {
+      id: 18,
+      nama: "Asun",
+      angsuran: "20 ribu",
+      tanggal: "5 Jun",
+      alamat: "Karang Baru",
+      sobekan: "11",
+    },
+    {
+      id: 19,
+      nama: "Nael",
+      angsuran: "100 ribu",
+      tanggal: "24 Des",
+      alamat: "Puri Nirwana",
+      sobekan: "1",
     },
   ];
 
