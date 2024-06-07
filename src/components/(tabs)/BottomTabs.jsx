@@ -11,12 +11,14 @@ const BottomTabs = () => {
         className={({ isActive }) => (isActive ? "navLink active" : "navLink")}
       >
         <NasabahSvg />
+        <p>Nasabah</p>
       </NavLink>
       <NavLink
         to={"/akun"}
         className={({ isActive }) => (isActive ? "navLink active" : "navLink")}
       >
         <AkunSvg />
+        <p>Akun</p>
       </NavLink>
     </div>
   );
