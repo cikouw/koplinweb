@@ -1,5 +1,5 @@
 import React from "react";
-import { Header } from "../headers";
+import { Header } from "../../components";
 
 const Performa = () => {
   return (

@@ -1,13 +1,11 @@
 import React from "react";
-import { BottomTabs } from "../components";
-
-import HeaderAkun from "../components/headers/HeaderAkun";
+import { BottomTab, HeaderAkun } from "../components";
 
 const Akun = () => {
   return (
     <>
       <HeaderAkun />
-      <BottomTabs />
+      <BottomTab />
     </>
   );
 };

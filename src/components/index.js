@@ -1,6 +1,9 @@
-import BottomTabs from "./(tabs)/BottomTabs";
-import TopTabs from "./(tabs)/TopTabs";
-import Performa from "./screens/Performa";
+import TopTab from "./(tabs)/TopTab";
+import BottomTab from "./(tabs)/BottomTab";
+import Card from "./cards/Card";
 import CardPerforma from "./cards/CardPerforma";
+import Header from "./headers/Header";
+import HeaderAkun from "./headers/HeaderAkun";
+import Performa from "./screens/Performa";
 
-export { BottomTabs, TopTabs, Performa, CardPerforma };
+export { TopTab, BottomTab, Card, CardPerforma, Header, HeaderAkun, Performa };

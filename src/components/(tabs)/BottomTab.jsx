@@ -1,11 +1,11 @@
 import React from "react";
-import "./bottomTabs.css";
+import "./bottomTab.css";
 import { NavLink } from "react-router-dom";
 import { AkunSvg, NasabahSvg } from "../../assets/icons";
 
-const BottomTabs = () => {
+const BottomTab = () => {
   return (
-    <div className="bottomTabs">
+    <div className="bottomTab">
       <NavLink
         to={"/"}
         className={({ isActive }) => (isActive ? "navLink active" : "navLink")}
@@ -24,4 +24,4 @@ const BottomTabs = () => {
   );
 };
 
-export default BottomTabs;
+export default BottomTab;

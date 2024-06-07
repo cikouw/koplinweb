@@ -1,4 +1,4 @@
-.topTabs {
+.topTab {
   width: 100%;
   height: 45px;
   padding: 0 10px;
@@ -11,10 +11,10 @@
   font-weight: 500;
   font-size: 16px;
 }
-.topTabs strong {
+.topTab strong {
   color: #168fff;
 }
-.topTabsLink {
+.topTabLink {
   background-color: #168fff;
   color: #fff;
   padding: 5px 10px;

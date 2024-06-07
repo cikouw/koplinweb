@@ -1,11 +1,11 @@
 import React from "react";
-import { BottomTabs, TopTabs } from "../components";
+import { BottomTab, TopTab } from "../components";
 
 const Nasabah = () => {
   return (
     <>
-      <TopTabs />
-      <BottomTabs />
+      <TopTab />
+      <BottomTab />
     </>
   );
 };
