@@ -8,6 +8,7 @@ import Performa from "./screens/Performa";
 import CardList from "./cards/CardList";
 import Anggota from "./nasabah/Anggota";
 import AnggotaList from "./nasabah/AnggotaList";
+import Footer from "./screens/Footer";
 
 export {
   TopTab,
@@ -20,4 +21,5 @@ export {
   CardList,
   Anggota,
   AnggotaList,
+  Footer,
 };
