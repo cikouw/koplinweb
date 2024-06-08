@@ -7,7 +7,7 @@ const Anggota = ({ foto, nama, angsuran, tanggal, alamat, sobekan }) => {
       <div className="anggota">
         <div className="flex-row">
           <div className="flex-column-satu">
-            <img src={foto} alt={nama} />
+            <img src={foto} />
             <div className="flex-column-dua">
               <strong>{nama}</strong>
               <span>{alamat}</span>

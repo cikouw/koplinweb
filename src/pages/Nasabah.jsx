@@ -1,11 +1,12 @@
 import React from "react";
 import { BottomTab, TopTab, AnggotaList, Footer } from "../components";
+import "../assets/fotoNasabah/nael.png";
 
 const Nasabah = () => {
   const dummyNasabah = [
     {
       id: 1,
-      foto: "src/assets/fotoNasabah/aku.png",
+      foto: "src/assets/fotoNasabah/nael.png",
       nama: "Nael Saruksuk",
       angsuran: "150 ribu",
       tanggal: "9 Jun",
@@ -14,16 +15,16 @@ const Nasabah = () => {
     },
     {
       id: 2,
-      foto: "src/assets/fotoNasabah/aku.png",
-      nama: "Nael Saruksuk",
-      angsuran: "150 ribu",
-      tanggal: "9 Jun",
+      foto: "src/assets/fotoNasabah/ivan.jpg",
+      nama: "Ivan Pasaribu",
+      angsuran: "100 ribu",
+      tanggal: "8 Jun",
       alamat: "Puri Nirwana",
-      sobekan: "1",
+      sobekan: "5",
     },
     {
       id: 3,
-      foto: "src/assets/fotoNasabah/aku.png",
+      foto: "src/assets/fotoNasabah/nael.png",
       nama: "Nael Saruksuk",
       angsuran: "150 ribu",
       tanggal: "9 Jun",
@@ -32,7 +33,7 @@ const Nasabah = () => {
     },
     {
       id: 4,
-      foto: "src/assets/fotoNasabah/aku.png",
+      foto: "src/assets/fotoNasabah/nael.png",
       nama: "Nael Saruksuk",
       angsuran: "150 ribu",
       tanggal: "9 Jun",
@@ -41,7 +42,7 @@ const Nasabah = () => {
     },
     {
       id: 5,
-      foto: "src/assets/fotoNasabah/aku.png",
+      foto: "src/assets/fotoNasabah/nael.png",
       nama: "Nael Saruksuk",
       angsuran: "150 ribu",
       tanggal: "9 Jun",
@@ -50,7 +51,7 @@ const Nasabah = () => {
     },
     {
       id: 6,
-      foto: "src/assets/fotoNasabah/aku.png",
+      foto: "src/assets/fotoNasabah/nael.png",
       nama: "Nael Saruksuk",
       angsuran: "150 ribu",
       tanggal: "9 Jun",
@@ -59,7 +60,7 @@ const Nasabah = () => {
     },
     {
       id: 7,
-      foto: "src/assets/fotoNasabah/aku.png",
+      foto: "src/assets/fotoNasabah/nael.png",
       nama: "Nael Saruksuk",
       angsuran: "150 ribu",
       tanggal: "9 Jun",
@@ -68,7 +69,7 @@ const Nasabah = () => {
     },
     {
       id: 8,
-      foto: "src/assets/fotoNasabah/aku.png",
+      foto: "src/assets/fotoNasabah/nael.png",
       nama: "Nael Saruksuk",
       angsuran: "150 ribu",
       tanggal: "9 Jun",
@@ -77,7 +78,7 @@ const Nasabah = () => {
     },
     {
       id: 9,
-      foto: "src/assets/fotoNasabah/aku.png",
+      foto: "src/assets/fotoNasabah/nael.png",
       nama: "Nael Saruksuk",
       angsuran: "150 ribu",
       tanggal: "9 Jun",
@@ -86,7 +87,7 @@ const Nasabah = () => {
     },
     {
       id: 10,
-      foto: "src/assets/fotoNasabah/aku.png",
+      foto: "src/assets/fotoNasabah/nael.png",
       nama: "Nael Saruksuk",
       angsuran: "150 ribu",
       tanggal: "9 Jun",
@@ -95,7 +96,7 @@ const Nasabah = () => {
     },
     {
       id: 11,
-      foto: "src/assets/fotoNasabah/aku.png",
+      foto: "src/assets/fotoNasabah/nael.png",
       nama: "Nael Saruksuk",
       angsuran: "150 ribu",
       tanggal: "9 Jun",
@@ -104,7 +105,7 @@ const Nasabah = () => {
     },
     {
       id: 12,
-      foto: "src/assets/fotoNasabah/aku.png",
+      foto: "src/assets/fotoNasabah/nael.png",
       nama: "Nael Saruksuk",
       angsuran: "150 ribu",
       tanggal: "9 Jun",
@@ -113,7 +114,7 @@ const Nasabah = () => {
     },
     {
       id: 13,
-      foto: "src/assets/fotoNasabah/aku.png",
+      foto: "src/assets/fotoNasabah/nael.png",
       nama: "Nael Saruksuk",
       angsuran: "150 ribu",
       tanggal: "9 Jun",
@@ -122,7 +123,7 @@ const Nasabah = () => {
     },
     {
       id: 14,
-      foto: "src/assets/fotoNasabah/aku.png",
+      foto: "src/assets/fotoNasabah/nael.png",
       nama: "Nael Saruksuk",
       angsuran: "150 ribu",
       tanggal: "9 Jun",
@@ -131,7 +132,7 @@ const Nasabah = () => {
     },
     {
       id: 15,
-      foto: "src/assets/fotoNasabah/aku.png",
+      foto: "src/assets/fotoNasabah/nael.png",
       nama: "Nael Saruksuk",
       angsuran: "150 ribu",
       tanggal: "9 Jun",
@@ -140,7 +141,7 @@ const Nasabah = () => {
     },
     {
       id: 16,
-      foto: "src/assets/fotoNasabah/aku.png",
+      foto: "src/assets/fotoNasabah/nael.png",
       nama: "Nael Saruksuk",
       angsuran: "150 ribu",
       tanggal: "9 Jun",
@@ -149,7 +150,7 @@ const Nasabah = () => {
     },
     {
       id: 17,
-      foto: "src/assets/fotoNasabah/aku.png",
+      foto: "src/assets/fotoNasabah/nael.png",
       nama: "Nael Saruksuk",
       angsuran: "150 ribu",
       tanggal: "9 Jun",
@@ -158,7 +159,7 @@ const Nasabah = () => {
     },
     {
       id: 18,
-      foto: "src/assets/fotoNasabah/aku.png",
+      foto: "src/assets/fotoNasabah/nael.png",
       nama: "Nael Saruksuk",
       angsuran: "150 ribu",
       tanggal: "9 Jun",
@@ -167,7 +168,7 @@ const Nasabah = () => {
     },
     {
       id: 19,
-      foto: "src/assets/fotoNasabah/aku.png",
+      foto: "src/assets/fotoNasabah/nael.png",
       nama: "Nael Saruksuk",
       angsuran: "150 ribu",
       tanggal: "9 Jun",
@@ -176,7 +177,7 @@ const Nasabah = () => {
     },
     {
       id: 20,
-      foto: "src/assets/fotoNasabah/aku.png",
+      foto: "src/assets/fotoNasabah/nael.png",
       nama: "Nael Saruksuk",
       angsuran: "150 ribu",
       tanggal: "9 Jun",
@@ -185,7 +186,7 @@ const Nasabah = () => {
     },
     {
       id: 21,
-      foto: "src/assets/fotoNasabah/aku.png",
+      foto: "src/assets/fotoNasabah/nael.png",
       nama: "Ivan Saruksuk",
       angsuran: "500 ribu",
       tanggal: "8 Jun",
