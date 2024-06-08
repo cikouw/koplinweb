@@ -7,12 +7,13 @@ const AnggotaList = ({ anggotas }) => {
       {anggotas.map((anggota) => (
         <Anggota
           key={anggota.id}
-          foto={anggota.foto}
+          sobekan={anggota.sobekan}
           nama={anggota.nama}
+          alamat={anggota.alamat}
+          jenis={anggota.jenis}
+          status={anggota.status}
           angsuran={anggota.angsuran}
           tanggal={anggota.tanggal}
-          alamat={anggota.alamat}
-          sobekan={anggota.sobekan}
         />
       ))}
     </>

@@ -1,24 +1,39 @@
 import React from "react";
 import "./Nasabah.css";
 
-const Anggota = ({ foto, nama, angsuran, tanggal, alamat, sobekan }) => {
+const Anggota = ({
+  sobekan,
+  nama,
+  alamat,
+  jenis,
+  status,
+  angsuran,
+  tanggal,
+}) => {
   return (
     <>
-      <div className="anggota">
-        <div className="flex-row">
-          <div className="flex-column-satu">
-            <img src={foto} />
-            <div className="flex-column-dua">
+      <div class="anggota">
+        <div class="flex-row">
+          <div class="flex-column-satu">
+            <p>{sobekan}</p>
+            <div class="flex-column-dua">
               <strong>{nama}</strong>
               <span>{alamat}</span>
             </div>
           </div>
-          <div className="flex-column-tiga">
-            <strong>{angsuran}</strong>
+          <div class="flex-column-tiga">
+            <div class="jenis">
+              <p>Jenis</p>
+              <span>{jenis}</span>
+            </div>
+            <div class="status">
+              <p>Status</p>
+              <span>{status}</span>
+            </div>
           </div>
-          <div className="flex-column-empat">
-            <span>{tanggal}</span>
-            <p>{sobekan}</p>
+          <div class="flex-column-empat">
+            <strong>{angsuran}</strong>
+            <p>{tanggal}</p>
           </div>
         </div>
       </div>

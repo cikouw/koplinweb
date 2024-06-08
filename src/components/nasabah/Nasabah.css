@@ -14,24 +14,35 @@
 
 .flex-column-satu {
   width: 50%;
+  height: 40px;
   display: flex;
-  align-items: center;
   gap: 10px;
+  overflow: hidden;
 }
 
-.flex-column-satu img {
-  width: 38px;
-  height: 38px;
+.flex-column-satu p {
+  width: 36px;
+  height: 36px;
+  line-height: 38px;
+  text-align: center;
   border-radius: 50%;
+  background-color: #0e46a3;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 1px;
 }
 
 .flex-column-dua {
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  justify-content: space-around;
+  align-items: start;
+  overflow: hidden;
 }
 .flex-column-dua strong {
   font-size: 1rem;
+  color: #0c0c0c;
 }
 .flex-column-dua span {
   font-size: 13px;
@@ -40,39 +51,67 @@
 }
 
 .flex-column-tiga {
-  width: 30%;
-  padding: 5px;
-}
-.flex-column-tiga strong {
-  width: 50%;
-  font-size: 12px;
-}
-
-.flex-column-empat {
   width: 20%;
+  height: 40px;
+  padding: 0 5px;
   display: flex;
   flex-direction: column;
-  align-items: end;
-  gap: 3px;
+  justify-content: space-around;
+  align-items: start;
+  gap: 1px;
+  overflow: hidden;
 }
-.flex-column-empat span {
+.flex-column-tiga .jenis {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.flex-column-tiga .status {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.flex-column-tiga .jenis p {
+  font-size: 10px;
+  font-weight: 500;
+  color: #555;
+}
+.flex-column-tiga .jenis span {
   font-size: 10px;
   font-weight: 600;
   color: #555;
 }
-.flex-column-empat p {
-  width: 20px;
-  height: 20px;
-  line-height: 20px;
-  text-align: center;
-  border-radius: 50%;
-  background-color: #dba226;
+.flex-column-tiga .status p {
+  font-size: 10px;
+  font-weight: 500;
+  color: #555;
+}
+.flex-column-tiga .status span {
   font-size: 10px;
   font-weight: 600;
-  color: #000;
+  color: #555;
 }
 
-.footer {
+.flex-column-empat {
+  width: 30%;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: end;
+  overflow: hidden;
+}
+.flex-column-empat strong {
+  color: #0c0c0c;
+}
+.flex-column-empat p {
+  font-size: 13px;
+  font-weight: 500;
+  color: #555;
+}
+
+.footer-nasabah {
   width: 100%;
   padding: 10px;
   margin-bottom: 58px;
@@ -82,7 +121,7 @@
   background-color: #dba226;
 }
 
-.footer p {
+.footer-nasabah p {
   font-size: 12px;
   font-weight: 500;
   color: #000;

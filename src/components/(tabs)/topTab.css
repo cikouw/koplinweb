@@ -6,13 +6,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   border-bottom: 1px solid #ddd;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
 }
 .topTab strong {
-  color: #168fff;
+  color: #0e46a3;
 }
 .topTabLink {
   background-color: #168fff;
