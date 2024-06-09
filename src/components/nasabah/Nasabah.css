@@ -29,7 +29,6 @@
   border-radius: 50%;
   font-size: 15px;
   font-weight: 600;
-  letter-spacing: 1px;
   background-color: #0e46a3;
   color: #fff;
 }
@@ -47,14 +46,14 @@
   gap: 5px;
 }
 .flex-column-satu .flex-kiri span {
-  width: 8px;
-  height: 12px;
-  line-height: 12px;
+  width: 9px;
+  height: 14px;
+  line-height: 14px;
   border-radius: 2px;
   font-size: 8px;
   font-weight: 600;
   text-align: center;
-  background-color: #fff;
+  background-color: #dba226;
   color: #0c0c0c;
 }
 
