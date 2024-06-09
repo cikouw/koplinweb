@@ -46,12 +46,12 @@
   gap: 5px;
 }
 .flex-column-satu .flex-kiri span {
-  width: 9px;
-  height: 14px;
-  line-height: 14px;
+  width: 10px;
+  height: 12px;
+  line-height: 12px;
   border-radius: 2px;
   font-size: 8px;
-  font-weight: 600;
+  font-weight: 800;
   text-align: center;
   background-color: #dba226;
   color: #0c0c0c;

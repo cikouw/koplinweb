@@ -5,10 +5,10 @@ const Nasabah = () => {
   const dummyNasabah = [
     {
       id: 1,
-      sobekan: "25",
+      sobekan: "t",
       nama: "Nael Saruksuk",
       jenis: "t",
-      alamat: "Puri Nirwana",
+      alamat: "cikarang",
       status: "Lancar",
       angsuran: "5 juta",
       tanggal: "24 des 1999",
