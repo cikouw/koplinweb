@@ -12,22 +12,22 @@ const Anggota = ({
 }) => {
   return (
     <>
-      <div class="anggota">
-        <div class="flex-row">
-          <div class="flex-satu">
-            <span class="sobekan">{sobekan}</span>
-            <div class="flex-column-satu">
-              <div class="flex-kiri">
+      <div className="anggota">
+        <div className="flex-row">
+          <div className="flex-satu">
+            <span className="sobekan">{sobekan}</span>
+            <div className="flex-column-satu">
+              <div className="flex-kiri">
                 <strong>{nama}</strong>
                 <span>{jenis}</span>
               </div>
               <span>{alamat}</span>
             </div>
           </div>
-          <div class="flex-dua">
+          <div className="flex-dua">
             <span>{status}</span>
           </div>
-          <div class="flex-column-dua">
+          <div className="flex-column-dua">
             <strong>{angsuran}</strong>
             <span>{tanggal}</span>
           </div>
