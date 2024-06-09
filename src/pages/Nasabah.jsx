@@ -1,5 +1,6 @@
 import React from "react";
 import { BottomTab, TopTab, AnggotaList, Footer } from "../components";
+import { useState, useEffect } from "react";
 
 const Nasabah = () => {
   const dummyNasabah = [
@@ -8,9 +9,9 @@ const Nasabah = () => {
       sobekan: "t",
       nama: "Nael Saruksuk",
       jenis: "t",
-      alamat: "cikarang",
+      alamat: "cikarang utara",
       status: "Lancar",
-      angsuran: "5 juta",
+      angsuran: "5.000.000",
       tanggal: "24 des 1999",
     },
     {
@@ -20,7 +21,7 @@ const Nasabah = () => {
       jenis: "h",
       alamat: "BKI",
       status: "Lancar",
-      angsuran: "150 ribu",
+      angsuran: "150.000",
       tanggal: "9 Jun",
     },
     {
@@ -30,7 +31,7 @@ const Nasabah = () => {
       jenis: "h",
       alamat: "Pelaukan",
       status: "Lancar",
-      angsuran: "35 ribu",
+      angsuran: "35.000",
       tanggal: "9 Jun",
     },
     {
@@ -40,7 +41,7 @@ const Nasabah = () => {
       jenis: "h",
       alamat: "Pelaukan",
       status: "Lancar",
-      angsuran: "20 ribu",
+      angsuran: "20.000",
       tanggal: "9 Jun",
     },
     {
@@ -50,7 +51,7 @@ const Nasabah = () => {
       jenis: "h",
       alamat: "Pelaukan",
       status: "Lancar",
-      angsuran: "15 ribu",
+      angsuran: "15.000",
       tanggal: "9 Jun",
     },
     {
@@ -60,7 +61,7 @@ const Nasabah = () => {
       jenis: "m",
       alamat: "Pule",
       status: "Lancar",
-      angsuran: "40 ribu",
+      angsuran: "40.000",
       tanggal: "8 Jun",
     },
     {
@@ -70,7 +71,7 @@ const Nasabah = () => {
       jenis: "h",
       alamat: "Pule",
       status: "Lancar",
-      angsuran: "15 ribu",
+      angsuran: "15.000",
       tanggal: "8 Jun",
     },
     {
@@ -80,7 +81,7 @@ const Nasabah = () => {
       jenis: "h",
       alamat: "Pulo Bambu",
       status: "Lancar",
-      angsuran: "25 ribu",
+      angsuran: "25.000",
       tanggal: "7 Jun",
     },
     {
@@ -90,7 +91,7 @@ const Nasabah = () => {
       jenis: "h",
       alamat: "Pulo Bambu",
       status: "Lancar",
-      angsuran: "25 ribu",
+      angsuran: "25.000",
       tanggal: "7 Jun",
     },
     {
@@ -100,7 +101,7 @@ const Nasabah = () => {
       jenis: "h",
       alamat: "Pulo Bambu",
       status: "Lancar",
-      angsuran: "10 ribu",
+      angsuran: "10.000",
       tanggal: "6 Jun",
     },
     {
@@ -110,7 +111,7 @@ const Nasabah = () => {
       jenis: "h",
       alamat: "Pulo Bambu",
       status: "Lancar",
-      angsuran: "30 ribu",
+      angsuran: "30.000",
       tanggal: "6 Jun",
     },
     {
@@ -120,7 +121,7 @@ const Nasabah = () => {
       jenis: "h",
       alamat: "Pulo Bambu",
       status: "Lancar",
-      angsuran: "50 ribu",
+      angsuran: "50.000",
       tanggal: "6 Jun",
     },
     {
@@ -130,7 +131,7 @@ const Nasabah = () => {
       jenis: "h",
       alamat: "Pulo Bambu",
       status: "Lancar",
-      angsuran: "75 ribu",
+      angsuran: "75.000",
       tanggal: "6 Jun",
     },
     {
@@ -140,7 +141,7 @@ const Nasabah = () => {
       jenis: "h",
       alamat: "Pulo Bambu",
       status: "Sedang",
-      angsuran: "250 ribu",
+      angsuran: "250.000",
       tanggal: "5 Jun",
     },
     {
@@ -150,7 +151,7 @@ const Nasabah = () => {
       jenis: "h",
       alamat: "Pilar Barat",
       status: "Lancar",
-      angsuran: "20 ribu",
+      angsuran: "20.000",
       tanggal: "5 Jun",
     },
     {
@@ -160,7 +161,7 @@ const Nasabah = () => {
       jenis: "h",
       alamat: "Pilar Barat",
       status: "Lancar",
-      angsuran: "15 ribu",
+      angsuran: "15.000",
       tanggal: "5 Jun",
     },
     {
@@ -170,7 +171,7 @@ const Nasabah = () => {
       jenis: "h",
       alamat: "Pilar Barat",
       status: "Lancar",
-      angsuran: "10 ribu",
+      angsuran: "10.000",
       tanggal: "5 Jun",
     },
     {
@@ -180,7 +181,7 @@ const Nasabah = () => {
       jenis: "h",
       alamat: "Teleng",
       status: "Lancar",
-      angsuran: "40 ribu",
+      angsuran: "40.000",
       tanggal: "4 Jun",
     },
     {
@@ -190,14 +191,24 @@ const Nasabah = () => {
       jenis: "h",
       alamat: "Teleng",
       status: "Lancar",
-      angsuran: "10 ribu",
+      angsuran: "10.000",
       tanggal: "4 Jun",
     },
   ];
+  const [totalAnggota, setTotalAnggota] = useState(0);
+  const [totalAngsuran, setTotalAngsuran] = useState(0);
 
+  useEffect(() => {
+    setTotalAnggota(dummyNasabah.length);
+    const total = dummyNasabah.reduce((sum, anggota) => {
+      const amount = parseInt(anggota.angsuran.replace(/\D/g, ""));
+      return sum + amount;
+    }, 0);
+    setTotalAngsuran(total);
+  }, [dummyNasabah]);
   return (
     <>
-      <TopTab />
+      <TopTab totalAnggota={totalAnggota} totalAngsuran={totalAngsuran} />
       <AnggotaList anggotas={dummyNasabah} />
       <Footer />
       <BottomTab />
