@@ -18,7 +18,7 @@ const Anggota = ({
     e.preventDefault();
     setTimeout(() => {
       navigate(`/detail_angsuran/${id}`);
-    }, 200); // Delay 0,2 detik sebelum navigasi
+    }, 300); // Delay 0,3 detik sebelum navigasi
   };
 
   return (
