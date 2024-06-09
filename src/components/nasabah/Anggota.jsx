@@ -4,8 +4,8 @@ import "./Nasabah.css";
 const Anggota = ({
   sobekan,
   nama,
-  alamat,
   jenis,
+  alamat,
   status,
   angsuran,
   tanggal,
@@ -14,26 +14,22 @@ const Anggota = ({
     <>
       <div class="anggota">
         <div class="flex-row">
-          <div class="flex-column-satu">
-            <p>{sobekan}</p>
-            <div class="flex-column-dua">
-              <strong>{nama}</strong>
+          <div class="flex-satu">
+            <span class="sobekan">{sobekan}</span>
+            <div class="flex-column-satu">
+              <div class="flex-kiri">
+                <strong>{nama}</strong>
+                <span>{jenis}</span>
+              </div>
               <span>{alamat}</span>
             </div>
           </div>
-          <div class="flex-column-tiga">
-            <div class="jenis">
-              <p>Jenis</p>
-              <span>{jenis}</span>
-            </div>
-            <div class="status">
-              <p>Status</p>
-              <span>{status}</span>
-            </div>
+          <div class="flex-dua">
+            <span>{status}</span>
           </div>
-          <div class="flex-column-empat">
+          <div class="flex-column-dua">
             <strong>{angsuran}</strong>
-            <p>{tanggal}</p>
+            <span>{tanggal}</span>
           </div>
         </div>
       </div>
