@@ -9,6 +9,7 @@ import CardList from "./cards/CardList";
 import Anggota from "./nasabah/Anggota";
 import AnggotaList from "./nasabah/AnggotaList";
 import Footer from "./screens/Footer";
+import DetailAngsuran from "./screens/DetailAngsuran";
 
 export {
   TopTab,
@@ -22,4 +23,5 @@ export {
   Anggota,
   AnggotaList,
   Footer,
+  DetailAngsuran,
 };

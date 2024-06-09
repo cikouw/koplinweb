@@ -7,6 +7,7 @@ const AnggotaList = ({ anggotas }) => {
       {anggotas.map((anggota) => (
         <Anggota
           key={anggota.id}
+          id={anggota.id}
           sobekan={anggota.sobekan}
           nama={anggota.nama}
           alamat={anggota.alamat}

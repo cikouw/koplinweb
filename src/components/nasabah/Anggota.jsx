@@ -1,7 +1,10 @@
+// Anggota.js
 import React from "react";
 import "./Nasabah.css";
+import { Link } from "react-router-dom";
 
 const Anggota = ({
+  id,
   sobekan,
   nama,
   jenis,
@@ -11,7 +14,7 @@ const Anggota = ({
   tanggal,
 }) => {
   return (
-    <>
+    <Link to={`/detail_angsuran/${id}`} className="link-angsuran">
       <div className="anggota">
         <div className="flex-row">
           <div className="flex-satu">
@@ -33,7 +36,7 @@ const Anggota = ({
           </div>
         </div>
       </div>
-    </>
+    </Link>
   );
 };
 

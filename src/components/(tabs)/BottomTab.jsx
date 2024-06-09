@@ -1,7 +1,7 @@
 import React from "react";
 import "./bottomTab.css";
 import { NavLink } from "react-router-dom";
-import { AkunSvg, NasabahSvg } from "../../assets/icons";
+import { AkunSvg, DropSvg, NasabahSvg } from "../../assets/icons";
 
 const BottomTab = () => {
   return (
@@ -12,6 +12,13 @@ const BottomTab = () => {
       >
         <NasabahSvg />
         <p>Nasabah</p>
+      </NavLink>
+      <NavLink
+        to={"/drop"}
+        className={({ isActive }) => (isActive ? "navLink active" : "navLink")}
+      >
+        <DropSvg />
+        <p>Drop</p>
       </NavLink>
       <NavLink
         to={"/akun"}
