@@ -1,7 +1,6 @@
-// Anggota.js
 import React from "react";
 import "./Nasabah.css";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Anggota = ({
   id,
@@ -13,8 +12,17 @@ const Anggota = ({
   angsuran,
   tanggal,
 }) => {
+  const navigate = useNavigate();
+
+  const handleClick = (e) => {
+    e.preventDefault();
+    setTimeout(() => {
+      navigate(`/detail_angsuran/${id}`);
+    }, 200); // Delay 0,2 detik sebelum navigasi
+  };
+
   return (
-    <Link to={`/detail_angsuran/${id}`} className="link-angsuran">
+    <div className="link-angsuran" onClick={handleClick}>
       <div className="anggota">
         <div className="flex-row">
           <div className="flex-satu">
@@ -36,7 +44,7 @@ const Anggota = ({
           </div>
         </div>
       </div>
-    </Link>
+    </div>
   );
 };
 

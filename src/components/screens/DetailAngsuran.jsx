@@ -20,6 +20,26 @@ const DetailAngsuran = () => {
         title={`${anggota.nama} - (${anggota.alamat})`}
       />
       <br />
+      <div className="content">
+        <p>
+          <strong>Nama: </strong>
+          {anggota.nama}
+        </p>
+        <p>
+          <strong>Alamat: </strong>
+          {anggota.alamat}
+        </p>
+
+        <p>
+          <strong>Angsuran: </strong>
+          {anggota.angsuran}
+        </p>
+        <p>
+          <strong>Tanggal: </strong>
+          {anggota.tanggal}
+        </p>
+      </div>
+      <br />
       <h4>Disinilah transaksi pembayaran setoran nasabah</h4>
     </div>
   );
