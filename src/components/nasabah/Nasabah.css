@@ -9,7 +9,7 @@
   cursor: pointer;
   text-transform: capitalize;
   transition: 0.2s ease;
-  /* border-bottom: 1px solid #ddd; */
+  border-bottom: 1px solid #ddd;
 }
 .anggota:hover {
   background-color: #fff;
@@ -35,8 +35,9 @@
   border-radius: 5px;
   font-size: 16px;
   font-weight: 600;
-  background-color: #151515;
-  color: #f3f3f3;
+  border: 1px solid #151515;
+  background-color: #fff;
+  color: #151515;
 }
 
 .flex-column-satu {
