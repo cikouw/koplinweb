@@ -1,6 +1,6 @@
 .topTab {
   width: 100%;
-  padding: 15px 10px;
+  padding: 10px;
   position: sticky;
   top: 0;
   left: 0;
@@ -13,21 +13,24 @@
   background-color: #fff;
 }
 
-.topTab strong {
+.topTab p {
   display: flex;
   align-items: start;
   justify-content: center;
   color: #0e46a3;
   font-size: 14px;
-  margin-top: 2px;
+  margin-top: 5px;
+  font-weight: 600;
 }
 .topTabLink {
-  background-color: #168fff;
+  background-color: #0e46a3;
   color: #fff;
-  padding: 5px 10px;
-  border-radius: 5px;
+  padding: 10px 15px;
+  border-radius: 20px;
   text-decoration: none;
 }
-.topTabLink p {
-  font-size: 14px;
+
+.topTabLink span {
+  font-size: 13px;
+  font-weight: 600;
 }

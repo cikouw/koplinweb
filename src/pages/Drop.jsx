@@ -1,5 +1,5 @@
 import React from "react";
-import { BottomTab, Header } from "../components";
+import { BottomTab, FormulirDrop, Header } from "../components";
 
 const Drop = () => {
   return (
@@ -8,6 +8,7 @@ const Drop = () => {
       <br />
       <h4>Disinilah setiap nasabah didata </h4>
       <h4>setiap kali mengajukan pinjaman</h4>
+      <FormulirDrop />
       <BottomTab />
     </div>
   );

@@ -6,19 +6,19 @@ const TopTab = ({ totalAnggota, totalAngsuran }) => {
   return (
     <nav className="topTab">
       <span>
-        Total <strong>{totalAnggota} Orang</strong>
+        Total<p>{totalAnggota} orang</p>
       </span>
       <span>
         Target
-        <strong>
+        <p>
           {totalAngsuran.toLocaleString("id-ID", {
             style: "currency",
             currency: "IDR",
           })}
-        </strong>
+        </p>
       </span>
       <Link to="/performa" className="topTabLink">
-        <p>Performa</p>
+        <span>Performa</span>
       </Link>
     </nav>
   );
