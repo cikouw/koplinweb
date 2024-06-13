@@ -68,7 +68,13 @@ const FormulirDrop = () => {
 
         <div className="form-group">
           <label htmlFor="tanggal">Tanggal</label>
-          <input type="date" id="tanggal" name="tanggal" required />
+          <input
+            type="date"
+            id="tanggal"
+            name="tanggal"
+            placeholder="01/01/2024"
+            required
+          />
         </div>
       </fieldset>
 

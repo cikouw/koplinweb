@@ -2,8 +2,7 @@
   max-width: 500px;
   margin: auto;
   padding: 20px;
-  background-color: #fff;
-  border-bottom: 1px solid #ddd;
+  background-color: #f3f3f3;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -16,7 +15,7 @@
 }
 
 .forms legend {
-  font-size: 1.1rem;
+  font-size: 1em;
   font-weight: 600;
   margin-bottom: 10px;
 }
@@ -35,7 +34,7 @@
   width: 100%;
   padding: 10px;
   font-size: 1em;
-  background-color: #f5f5f5;
+  background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 4px;
   box-sizing: border-box; /* Memastikan padding tidak mempengaruhi lebar total */
