@@ -36,7 +36,7 @@ export const dummyNasabah = [
     jenis: "h",
     alamat: "Pelaukan",
     status: "Lancar",
-    angsuran: "20.000",
+    angsuran: "200.000",
     tanggal: "9 Jun",
   },
   {
@@ -76,7 +76,7 @@ export const dummyNasabah = [
     jenis: "h",
     alamat: "Pulo Bambu",
     status: "Lancar",
-    angsuran: "25.000",
+    angsuran: "250.000",
     tanggal: "7 Jun",
   },
   {
