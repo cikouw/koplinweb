@@ -7,7 +7,7 @@ import Anggota from "./nasabah/Anggota";
 import AnggotaList from "./nasabah/AnggotaList";
 import Footer from "./screens/Footer";
 import DetailAngsuran from "./screens/DetailAngsuran";
-import FormulirDrop from "./form/FormulirDrop";
+import FormulirDrop from "./forms/FormulirDrop";
 
 export {
   TopTab,

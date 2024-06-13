@@ -1,3 +1,13 @@
+:root {
+  --primary-color: #0e46a3;
+  --secondary-color: #2ecc71;
+  --font-family: "Arial, sans-serif";
+  --font-16: 16px;
+  --border-radius: 10px;
+  --padding: 15px 10px;
+  --hijau-color: #45a049;
+}
+
 * {
   padding: 0;
   margin: 0;
